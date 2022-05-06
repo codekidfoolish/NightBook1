@@ -1,0 +1,56 @@
+.post-bottom {
+    margin: 4px 0 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.post-reaction {
+    width: 20px;
+    height: 20px;
+}
+
+.reaction-counter {
+    color: #757575;
+    margin-left: 8px;
+}
+
+.post-comment-counter {
+    color: #757575
+}
+
+.post-hr {
+    border: 1px solid var(--input-color);
+}
+
+.post-interactive {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.post-lcs {
+    display: flex;
+    align-items: center;
+}
+
+.post-like {
+    margin-left: 10px;
+    color: #1877f2
+}
+
+
+.post-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.inter-text,
+.inter-icon {
+    margin-left: 10px;
+    color: #757575
+}

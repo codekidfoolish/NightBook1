@@ -1,0 +1,125 @@
+.profile {
+    display: flex
+}
+
+.profile-right {
+    flex: 9
+}
+
+.profile-right-bottom {
+    display: flex;
+}
+
+.profile-right-top {
+    position: relative;
+}
+
+.profile-cover {
+    height: 450px;
+    position: relative;
+}
+
+.profile-user {
+    color: var(--text-color);
+    position: absolute;
+    bottom: 32px;
+    left: 201px;
+
+}
+
+
+.profile-picture-cover {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.profile-picture-user {
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    left: 37px;
+    border: 3px solid #1877f2;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.profile-user-name {
+    font-size: 1.2rem;
+}
+
+.profile-user-desc {
+    font-style: italic;
+}
+
+.profile-picture-btn {
+    background-color: var(--box-color);
+    border: 1px solid #1877f2;
+    color: #1877f2;
+    position: absolute;
+    bottom: -23px;
+    left: 58px;
+    outline: none;
+    width: 122px;
+    border-radius: 4px;
+}
+
+.profile-picture-btn::before {
+    content: 'Đổi ảnh đại diện';
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.profile-picture-btn:hover::before {
+    background-color: var(--input-color);
+}
+
+.profile-picture-user:hover.profile-picture-btn {
+    display: inline-block;
+    background-color: #1877f2;
+}
+
+.profile-picture-btn::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 46.25em) {
+    .profile-picture-cover {
+        width: 100vh;
+    }
+
+    .profile-picture-user {
+        position: absolute;
+        bottom: 8px;
+        left: 45%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .profile-user {
+        position: absolute;
+        bottom: -46px;
+        left: 50%;
+    }
+
+    .profile-picture-btn {
+        position: absolute;
+        bottom: 54px;
+        left: 26%;
+        width: 128px;
+
+
+    }
+
+}

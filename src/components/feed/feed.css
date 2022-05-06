@@ -1,0 +1,37 @@
+.feed {
+    flex: 6.5;
+}
+
+
+.feed-wrapper {
+    padding: 0 60px 60px;
+}
+
+
+/*----------STORY----------*/
+
+.story-wrapper {
+    max-width: 650px;
+    overflow-x: hidden;
+    margin: 30px 0;
+}
+
+.story-wrapper:hover {
+    overflow: scroll;
+    scrollbar-width: 1px
+}
+
+.story-list {
+    list-style: none;
+    display: flex;
+
+}
+
+@media screen and (max-width: 46.25em) {
+
+    .feed-wrapper {
+        padding: 0;
+        width: 100%;
+        margin: 0 75px ;
+    }
+}

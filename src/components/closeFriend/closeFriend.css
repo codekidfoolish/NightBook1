@@ -1,0 +1,17 @@
+.sidebar-text {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.sidebar-friend {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+}

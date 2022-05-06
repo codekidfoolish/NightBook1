@@ -1,0 +1,40 @@
+.rightbar-friend {
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rightbar-friend:hover {
+    background-color: var(--box-color);
+    border-radius: 30px;
+}
+
+.rightbar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+}
+
+.rightbar-text::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #31a24c;
+    border: 1px solid var(--bg-color);
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: -23px;
+}
+
+.rightbar-text {
+    color: var(--text-color);
+    margin-left: 15px;
+    position: relative;
+}

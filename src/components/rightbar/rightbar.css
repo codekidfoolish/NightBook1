@@ -1,0 +1,131 @@
+.rightbar {
+    flex: 3.5;
+}
+
+
+/*-------------RIGHTBAR HOME----------------*/
+
+.rightbar-bd {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.bd-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rightbar-hr {
+    border: 1px solid var(--input-color);
+}
+
+.bd-text {
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-left: 14px;
+}
+
+b {
+    cursor: pointer;
+}
+
+.event-img {
+    margin: 20px 0 12px;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rightbar-title {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.rightbar-friend-list {
+    list-style: none;
+}
+
+/*-------------RIGHTBAR PROFILE----------------*/
+.profile-infor {
+    padding: 15px;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    color: var(--text-color)
+}
+
+.infor-list {
+    list-style: none;
+}
+
+.infor-item {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.infor-icon {
+    color: #8c939d
+}
+
+.infor-desc {
+    margin-left: 16px;
+
+}
+
+.profile-infor-btn {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    color: var(--text-color);
+    background-color: var(--input-color);
+    cursor: pointer;
+}
+
+.profile-infor-btn:hover {
+    background-color: #535151;
+}
+
+/*---------FRIEND-----------*/
+
+.profile-friend {
+    padding: 15px;
+    margin: 30px 0;
+    height: 420px;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    overflow: hidden;
+}
+
+.rightbar-friendlist {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.friend_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.friend-title {
+    font-size: 1.6rem;
+}
+
+.friend-counter {
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 46.25em) {
+    .rightbar-container {
+        display:none
+    }
+}

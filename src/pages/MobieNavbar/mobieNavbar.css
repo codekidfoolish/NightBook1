@@ -1,0 +1,17 @@
+.profile-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar-wrapper {
+    margin: 30px ;
+    color:var(--text-color)
+}
